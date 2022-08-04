@@ -132,7 +132,8 @@ hr {
   }
 
 .big-container {
-    width: 680px;
+    width: 660px;
+    font-size: 0px;
     height: 200px;
     margin: 0px auto;
     display: inline-block;
@@ -148,7 +149,7 @@ hr {
   }
 
   .smaill-container-aa {
-    width: 200px;
+    width: 198px;
     height: 180px;
     display: inline-block;
     margin: 10px;
