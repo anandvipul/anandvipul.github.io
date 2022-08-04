@@ -149,9 +149,10 @@ hr {
   }
 
   .smaill-container-aa {
-    width: 198px;
+    width: 200px;
     height: 180px;
     display: inline-block;
+    box-sizing: border-box;
     margin: 10px;
     background-color: #DAE1FB;
     border: 1px solid black;
