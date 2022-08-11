@@ -1,0 +1,561 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Custom CSS */
+
+* {
+  font-family: 'Uchen', serif;
+}
+
+.content-width {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.social-links {
+  margin: 20px auto 0px auto;
+}
+
+.social-links i {
+  padding: 5px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 63vh;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 18vh;
+}
+
+.icon {
+  font-size: 0px;
+  display: inline;
+}
+
+.list-container {
+  vertical-align: middle;
+  /* border: 2px solid red; */
+}
+
+.list-container li {
+  display: inline;
+  padding: 10px 15px;
+}
+
+.list-container li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links-container {
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: white;
+  align-items: center;
+}
+
+.icon-brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.brand {
+  font-size: 38px;
+  color: red;
+  padding: 0px 10px;
+  font-weight: bold;
+}
+
+.header-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px auto 100px auto;
+}
+
+.header-title > div {
+  margin: 0px auto 30px auto;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+h2.services,
+h3.services {
+  color: black;
+}
+
+.head-divider {
+  border: 0.5px solid white;
+  /* width: 27vw; */
+  /* margin: 0px auto 20px auto; */
+}
+
+.services-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-head hr {
+  border: 3px solid red;
+}
+
+.services-container {
+  max-width: 80vw;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-subheading {
+  margin: 0 auto;
+}
+
+.let-us-design {
+  background-color: red;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 5px;
+}
+
+.let-us-design span {
+  display: block;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* Universal Section Start*/
+
+.universal-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 150px auto 10px auto;
+  flex-wrap: wrap;
+}
+
+.universal-section > .section-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.universal-section > .section-desc {
+  margin: 0px auto 85px auto;
+}
+
+.section-title h2 {
+  color: black;
+}
+
+.section-title > hr {
+  border: 2px solid black;
+  width: 100%;
+}
+
+.section-desc > h3 {
+  color: black;
+}
+
+/* Universal Section End*/
+
+/*  Universal Card Design */
+.universal-card {
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  margin: 10px 15px;
+  text-align: center;
+}
+/* Universal card Design End */
+
+/* Universal Card COntainer Design */
+.universal-card-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px auto 10px auto;
+}
+/* Universal Card COntainer Design End*/
+
+/* Services Cards */
+
+/* Code Card */
+
+.code-card {
+  background-color: #68be9d;
+}
+
+.code-card i {
+  color: white;
+  font-size: 30px;
+  line-height: 300px;
+}
+
+/* Messenger Card */
+
+.messenger-card {
+  background-color: #e67731;
+}
+
+.messenger-card i {
+  color: white;
+  font-size: 30px;
+  line-height: 300px;
+}
+
+/* institute Card */
+
+.institute-card {
+  background-color: #3c98db;
+}
+
+.institute-card i {
+  color: white;
+  font-size: 30px;
+  line-height: 300px;
+}
+
+/* Lab Card */
+
+.lab-card {
+  background-color: #77ce73;
+}
+
+.lab-card i {
+  color: white;
+  font-size: 30px;
+  line-height: 300px;
+}
+
+/* End of Services Card */
+
+/* PortFolio */
+
+.universal-card > .portfolio-image {
+  width: 100%;
+}
+
+/* Circular Card */
+
+.circular-card {
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  margin: 10px 15px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.circular-card > .team-image {
+  width: 100%;
+  border-radius: 150px;
+}
+
+/* Article Container */
+.article-container {
+  width: 80vw;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid red; */
+}
+
+.article-container > .article {
+  width: 60%;
+}
+
+.article > p {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.progress-bar {
+  width: 50%;
+}
+.progress {
+  border: 1px solid #f00;
+  border-radius: 4px;
+  margin-top: 1.2rem;
+}
+
+.bar {
+  border-radius: 3px;
+  color: white;
+  text-align: left;
+  padding: 5px;
+  font-weight: 700;
+}
+
+.bar.photoshop {
+  background: #f00;
+  width: 90%;
+}
+.bar.htmlCSS {
+  background: #f00;
+  width: 80%;
+}
+.bar.development {
+  background: #f00;
+  width: 70%;
+}
+.bar.marketing {
+  background: #f00;
+  width: 80%;
+}
+
+.google-map {
+
+  width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.google-map > img {
+  width: 100%;
+}
+
+.about-us {
+  width: 80vw;
+  margin: 10px auto;
+}
+
+.about-contuct-us-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about {
+  width: 60%;
+}
+
+.about > p, address {
+  padding: 10px;
+  font-size: 20px;
+} 
+
+.contact-us-form {
+  width: 36%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+form > input {
+  padding: 5px;
+  margin: 5px;
+  width: 90%;
+}
+
+input.message {
+  height: 50px;
+}
+
+input.button {
+  background-color: red;
+  font-size: 15px;
+  font-weight: 700;
+  
+}
+
+
+
+
+span.blue {
+  color: blue;
+}
+
+span.green{
+  color: green;
+}
+
+span.red {
+  color: red;
+}
+
+span.bold {
+  font-weight: bold;
+}
+
+.footer-container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.footer-container > p {
+  padding: 10px;
+}
+
+
+.top-button {
+  position: fixed;
+  right: 2vw;
+  bottom: 2vw;
+  background-color: red;
+
+}
+.top-button a {
+  text-decoration: none;
+  color: white;
+  font-style: bold;
+  font-size: large;
+}
