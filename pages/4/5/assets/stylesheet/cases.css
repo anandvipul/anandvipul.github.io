@@ -1,0 +1,27 @@
+.cases-container {
+    flex-wrap: wrap;
+    width: 70vw;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.cases-card {
+    margin: 10px;
+    width: 25%;
+}
+
+.cases-card img {
+    width: 100%;
+}
+
+.cases-card .texts {
+    position: relative;
+    top: -100px;
+    background-color: white;
+    width: 60%;
+}
+
+.cases-card .texts h4 {
+    padding-bottom: 20px;
+}

@@ -1,0 +1,123 @@
+/* Font to be used */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    line-height: 1.7rem;
+}
+
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+h6 {
+    font-size: 20px;
+    font-weight: light;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-top-navbar {
+    background-color: var(--ribbon-color);
+}
+
+.top-footer {
+    background-color: var(--ribbon-color);
+}
+
+.top-footer {
+    color: white;
+}
+
+
+.completed-case {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #F8FAFE;
+}
+
+
+.about-hero {
+    background-image: url("../media/hero/about_hero.jpg");
+    background-size: cover;
+    height: 200px;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    padding-bottom: 50px;
+  }
+
+
+  .case-hero {
+    background-image: url("../media/hero/cases_hero.jpg");
+    background-size: cover;
+    height: 200px;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    padding-bottom: 50px;
+  }
+
+  .services-hero {
+    background-image: url("../media/hero/services_hero.jpg");
+    background-size: cover;
+    height: 200px;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    padding-bottom: 50px;
+  }
+
+  .contact-hero {
+    background-image: url("../media/hero/contact_hero.jpg");
+    background-size: cover;
+    height: 200px;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    padding-bottom: 50px;
+  }
