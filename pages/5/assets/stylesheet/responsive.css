@@ -1,0 +1,174 @@
+/* Media Queries Styles */
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .container {
+    max-width: 1000px;
+  }
+  .hero {
+    height: 60vh;
+  }
+}
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 14px;
+  }
+  .container {
+    max-width: 960px;
+  }
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  /* General */
+  .container {
+    max-width: 720px;
+  }
+  .sm-column {
+    flex-direction: column;
+  }
+  .sm-width-full {
+    width: 100%;
+  }
+  .sm-flex-100 {
+    flex: 0 1 100%;
+    margin: 2rem 0;
+  }
+  .sm-wrap {
+    flex-wrap: wrap;
+  }
+  .order-1 {
+    order: 1;
+  }
+  .sm-flex {
+    display: flex;
+  }
+
+  .sm-text-center {
+    text-align: center;
+  }
+  .sm-justify-center {
+    justify-content: center;
+  }
+
+  /* Navbar */
+  .navbar {
+    background-color: white;
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+  }
+  .nav {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 1);
+    padding-top: 12rem;
+    z-index: 1;
+    color: var(--theme-red);
+  }
+  .nav-item a {
+    font-size: 1.5rem;
+  }
+  #toggle:checked ~ .nav {
+    display: inline-block;
+  }
+  .bars {
+    font-size: 2rem;
+    color: var(--theme-red);
+    display: inline-block;
+  }
+  .brand,
+  .bars {
+    position: fixed;
+    top: 1.5rem;
+    z-index: 99;
+  }
+  .brand {
+    left: 2rem;
+  }
+  .bars {
+    right: 2rem;
+  }
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .sm-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-30 {
+    margin-bottom: 2em;
+    flex: 0 1 20%;
+  }
+
+  .flex-20 {
+    margin-bottom: 2em;
+    margin-top: 2em;
+  }
+
+  .img-about-us {
+    /* width: 100vw; */
+    height: 40vh;
+  }
+
+  .about-card {
+    flex-wrap: nowrap;
+  }
+
+  .services-cards,
+  .values-cards,
+  .portfolio-image-container,
+  .team-cards,
+  .pricing-cards,
+  .contact-cards,
+  .summary-container,
+  .salutation-container {
+    flex-direction: column;
+  }
+  .value-article {
+    top: -9em;
+  }
+  .team-card {
+    margin-bottom: 2em;
+  }
+  .price-foot {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .cpntact-header-card {
+    box-shadow: 0 0 10px 2px rgba(87, 85, 85, 0.555);
+  }
+  .contact-form > div {
+    flex-direction: column;
+  }
+  .summary {
+    background-color: antiquewhite;
+  }
+
+  .salutation-container {
+    text-align: center;
+  }
+  .left-salutation {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 10px;
+  }
+  .container {
+    max-width: 540px;
+  }
+}

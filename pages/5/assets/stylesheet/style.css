@@ -1,0 +1,406 @@
+/* Navbar */
+
+.navbar {
+  background-color: white;
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.brand {
+  font-size: 1.5rem;
+  color: inherit;
+  font-weight: 800;
+}
+.nav-item {
+  margin-left: 1.5rem;
+}
+.nav a {
+  color: inherit;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.nav a:hover {
+  color: var(--theme-red);
+}
+
+#toggle,
+.bars {
+  display: none;
+}
+
+/* Hero Section */
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../media/hero-bg.jpg") no-repeat;
+  background-size: cover;
+  height: 50vh;
+  color: white;
+}
+
+.hero-heading {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 0.4rem;
+}
+
+.hero-paragraph {
+  margin-bottom: 2rem;
+}
+
+.hero-btn {
+  color: white;
+}
+
+.flexor-card {
+  box-shadow: 0 0 20px black;
+  color: black;
+  padding: 2em;
+}
+
+.small-card {
+  text-align: center;
+  background-color: white;
+  border-radius: 1em;
+}
+
+.flexor-big-card {
+  background-color: var(--theme-red);
+  color: white;
+}
+
+.flexor-card-why-para {
+  font-size: 0.8em;
+  padding-bottom: 2em;
+}
+
+.flexor-card-big-head {
+  font-size: 1.6em;
+  font-weight: 800;
+  padding-bottom: 0.8em;
+}
+
+.flexor-big-card button {
+  color: white;
+  width: 40%;
+  padding: 0.5em;
+  border-radius: 1em;
+  background-color: var(--theme-red-shade);
+}
+
+.flexor-card-small-head {
+  font-weight: 700;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+/*  */
+
+.why-flexor {
+  position: relative;
+  top: -7rem;
+}
+
+/*  */
+
+.about-us {
+  background-color: var(--theme-section-bg);
+}
+
+.among-us-img {
+  background-image: url("../media/blog-inside-post.jpg");
+  background-size: cover;
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 5em;
+}
+
+.among-us-article .title {
+  font-weight: 500;
+}
+
+.among-us-article .head {
+  font-weight: 700;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.among-us-article .description {
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.about-card {
+  padding-top: 2.5em;
+}
+
+.about-card i {
+  padding: 0.5em;
+  border: 1px solid red;
+  border-radius: 1em;
+}
+
+.client-card {
+  padding: 1em;
+}
+
+.client-card img {
+  width: 100%;
+}
+
+.clients {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.services {
+  background-color: var(--theme-section-bg);
+}
+
+.services-card {
+  padding: 2em;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 0 10px 2px rgb(136, 133, 133);
+  margin: 2em;
+}
+
+.services-card i {
+  background-color: var(--theme-red);
+  padding: 1em;
+
+  color: white;
+  border-radius: 2em;
+  position: relative;
+  top: -3.5em;
+}
+
+.services-card .title {
+  font-weight: 800;
+  text-transform: uppercase;
+  position: relative;
+  top: -1.5em;
+}
+
+.value img {
+  width: 100%;
+  height: auto;
+}
+
+.value-article {
+  padding: 1em;
+  position: relative;
+  top: -8em;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 90%;
+}
+
+.value-article .title {
+  font-weight: 700;
+}
+
+.value-article .description {
+  font-size: 0.8em;
+  font-weight: 700;
+  padding-bottom: 0.5em;
+}
+
+.testimonials {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../media/testimonials-bg.jpg") no-repeat;
+}
+
+.testimonials img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.testimonials .name {
+  font-size: 0.9em;
+  color: white;
+  padding: 1em;
+  font-weight: 800;
+}
+
+.testimonials .designation {
+  font-size: 0.9em;
+  color: white;
+  padding: 1em;
+}
+
+.testimonials blockquote {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+
+.portfolio-dec {
+  padding: 1em 0;
+}
+
+.portfolio-dec span {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.portfolio-image-container div img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  padding: 1em;
+}
+
+.team {
+  background-color: var(--theme-section-bg);
+}
+
+.team-card {
+  box-shadow: 0 0 10px 2px rgb(168, 164, 164);
+}
+
+.team-footer {
+  padding: 2em;
+  background-color: white;
+}
+
+.team-footer span {
+  display: block;
+}
+
+.summary {
+  background-color: var(--theme-section-bg);
+}
+
+.brand-footer {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+address {
+  font-size: 0.8em;
+}
+
+b {
+  font-weight: 600;
+}
+
+.summary-title {
+  font-size: 0.9em;
+  font-weight: 800;
+  padding-bottom: 2em;
+}
+
+.summary-links {
+  list-style-type: circle;
+  list-style-image: url("../media/circle-arrow-right-solid.svg");
+  list-style-position: inside;
+}
+.summary-links li a {
+  font-size: 0.8em;
+  padding-top: 1.5em;
+}
+
+.salutation {
+  padding: 2em 0;
+}
+
+.left-salutation {
+  font-size: 0.8em;
+}
+
+.right-links i {
+  padding: 0.5em;
+  margin-left: 1em;
+  color: white;
+  border-radius: 2em;
+  background-color: var(--theme-red);
+}
+
+.cpntact-header-card {
+  padding: 1em;
+  box-shadow: 0 0 50px 2px rgb(87, 85, 85);
+}
+
+.cpntact-header-card i {
+  padding: 0.5em;
+  border: 1px solid var(--text-light);
+  border-radius: 2em;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin-right: 0.5em;
+  color: red;
+}
+
+.cpntact-header-card .title {
+  font-weight: 600;
+}
+
+.contact-form {
+  padding: 2em;
+  box-shadow: 0 0 50px 2px rgb(175, 171, 171);
+  margin-top: 3em;
+}
+input,
+textarea {
+  padding: 1em;
+  border: 1px solid rgb(151, 146, 146);
+  margin-bottom: 2em;
+}
+
+
+/*  */
+
+.price-card {
+  text-align: center;
+  margin: 0.8em;
+  border: 1px solid var(--theme-card-bg);
+}
+
+.price-head {
+  padding: 1em;
+  text-transform: capitalize;
+  font-weight: 600;
+  background-color: var(--theme-card-bg);
+}
+
+.pricing-foot-container {
+  padding: 1em 3em;
+  background-color: var(--theme-card-bg);
+}
+
+.price-foot {
+  padding: 0.5em 1em;
+  text-transform: capitalize;
+  font-weight: 600;
+  background-color: var(--theme-red);
+  color: white;
+}
+
+.select-price {
+  color: white;
+  background-color: var(--theme-red);
+}
+
+/* FAQ */
+.faq {
+  background-color: var(--theme-section-bg);
+}
+
+.faq-question-card {
+  font-size: 0.9em;
+  font-weight: 500;
+  margin: 1.5em;
+  padding: 2em;
+  background-color: white;
+}
+

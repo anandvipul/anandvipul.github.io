@@ -1,0 +1,11 @@
+:root {
+  --theme-red: rgb(235, 84, 50);
+  --theme-red-shade: rgb(237, 112, 73);
+
+  --theme-section-bg: rgb(254, 248, 246);
+
+  --theme-card-bg: rgb(248, 249, 249);
+
+  --text-light: rgb(114, 101, 98);
+  --text-dark: rgb(85, 72, 68);
+}
