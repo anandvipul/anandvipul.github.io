@@ -24,12 +24,12 @@ main {
 
 .name {
   font-size: 2rem;
-  transform: scale(1.5, 2);
+  /* transform: scale(1.5, 2); */
 }
 
 .desegnation {
   font-size: 1.2rem;
-  transform: scale(1.5, 2);
+  /* transform: scale(1.5, 2); */
 }
 
 .link-items {
@@ -42,5 +42,8 @@ main {
   .frontend-links {
     display: flex;
     flex-direction: column;
+  }
+  .center {
+    margin: 0 1rem;
   }
 }
